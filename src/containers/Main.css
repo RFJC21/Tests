@@ -1,0 +1,57 @@
+.All {
+  text-align: center;
+}
+
+.Header {
+  width: 100%;
+  background-color: rgba(35, 102, 122, 0.856);
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  height: 100px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.Image {
+  display: block;
+  margin: auto;
+  width: 80%;
+  height: 80%;
+}
+
+@media (min-width: 700px) {
+  .Image {
+    width: auto;
+    height: auto;
+  }
+}
+
+.Input_Main {
+  width: 200px;
+  height: 20px;
+  box-sizing: border-box;
+  margin: auto;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 2px #ccc;
+  display: block;
+  margin-top: 10px;
+}
+
+.Input_Main:focus {
+  background-color: rgb(230, 227, 227);
+}
+
+.Output_Main {
+  box-sizing: border-box;
+  margin: auto;
+  display: block;
+  text-align: center;
+  padding: 5px;
+}
+
+@media (min-width: 700px) {
+  .Input_Main {
+    width: 300px;
+  }
+}

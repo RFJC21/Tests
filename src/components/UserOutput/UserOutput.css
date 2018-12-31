@@ -1,0 +1,7 @@
+.Output {
+  box-sizing: border-box;
+  margin: auto;
+  display: block;
+  text-align: center;
+  padding: 5px;
+}

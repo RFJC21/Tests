@@ -1,0 +1,27 @@
+.Input {
+  width: 200px;
+  height: 20px;
+  box-sizing: border-box;
+  margin: auto;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 2px #ccc;
+  display: block;
+  margin-top: 10px;
+}
+
+.Label {
+  font-weight: bold;
+  color: rgb(41, 115, 150);
+  display: block;
+  text-align: center;
+}
+
+.Input:focus {
+  background-color: rgb(230, 227, 227);
+}
+
+@media (min-width: 700px) {
+  .Input {
+    width: 300px;
+  }
+}
